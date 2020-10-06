@@ -14,10 +14,22 @@
    background-position: center;
 }
 
-#slideOne {
+#slide1 {
     background-image: url('../img/moby_deploy1_2.jpg');
 }
 
-#slideTwo {
+#slide2 {
     background-image: url('../img/moby_deploy1_4.jpg');
+}
+
+#slide3 {
+    background-image: url('../img/moby_deploy1_5.jpg');
+}
+
+#slide4 {
+    background-image: url('../img/moby_deploy1_6.jpg');
+}
+
+#slide5 {
+    background-image: url('../img/moby_deploy1_8.jpg');
 }
