@@ -1,0 +1,43 @@
+
+#landingPageCarousel {
+    height: 100vh;
+}
+
+#landingPageCarousel .carousel-inner, #landingPageCarousel .carousel-item {
+    height: 100%; 
+}
+
+.carousel-item {
+   width: 100%; 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.carousel-item p {
+    font-size: 32px;
+}
+
+.carousel-item h5 {
+    font-size: 40px;
+}
+
+#slide1 {
+    background-image: url('../img/moby_deploy1_2.jpg');
+}
+
+#slide2 {
+    background-image: url('../img/moby_deploy1_4.jpg');
+}
+
+#slide3 {
+    background-image: url('../img/moby_deploy1_5.jpg');
+}
+
+#slide4 {
+    background-image: url('../img/moby_deploy1_6.jpg');
+}
+
+#slide5 {
+    background-image: url('../img/moby_deploy1_8.jpg');
+}
