@@ -14,6 +14,14 @@
    background-position: center;
 }
 
+.carousel-item p {
+    font-size: 32px;
+}
+
+.carousel-item h5 {
+    font-size: 40px;
+}
+
 #slide1 {
     background-image: url('../img/moby_deploy1_2.jpg');
 }
