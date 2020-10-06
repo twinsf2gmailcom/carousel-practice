@@ -1,0 +1,23 @@
+
+#landingPageCarousel {
+    height: 100vh;
+}
+
+#landingPageCarousel .carousel-inner, #landingPageCarousel .carousel-item {
+    height: 100vh; 
+}
+
+.carousel-item {
+   width: 100%; 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+#slideOne {
+    background-image: url('../img/moby_deploy1_2.jpg');
+}
+
+#slideTwo {
+    background-image: url('../img/moby_deploy1_4.jpg');
+}
