@@ -4,7 +4,7 @@
 }
 
 #landingPageCarousel .carousel-inner, #landingPageCarousel .carousel-item {
-    height: 100vh; 
+    height: 100%; 
 }
 
 .carousel-item {
