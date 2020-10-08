@@ -1,6 +1,8 @@
 
 #landingPageCarousel {
     height: 100vh;
+    position: relative;
+    z-index: 0;
 }
 
 #landingPageCarousel .carousel-inner, #landingPageCarousel .carousel-item {
@@ -20,6 +22,18 @@
 
 .carousel-item h5 {
     font-size: 40px;
+}
+
+#landingPageCarousel .carousel-inner::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: green;
+    opacity: 0.3;
 }
 
 #slide1 {
