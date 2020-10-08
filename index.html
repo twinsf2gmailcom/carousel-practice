@@ -75,6 +75,63 @@
         <span class="sr-only">Next</span>
       </a>      
 		</div>
+    <!-- FORMS ----------------------------------------- -->
+    <!-- <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form> -->
+
+    <!-- Jaques form demo on day 10 -->
+    <!--  main.container>.row>(.col>p.title+.row(.col>form)) -->
+    <main class="container">
+      <div class="row">
+        <div class="col ">
+          <p class="title">Contact Us</p>
+          <div class="row"></div>
+          <div class="col form_wrapper">
+            <form action="">
+              <!-- (.form-group>(label[for=""]+input[type="text"]#.form-control))*2 + (.form-group>(label[for="subject"]+select#subject.form-control>(option)*3))+(.form-group>label[for="message"]+textarea.form-control#message)+button.btn.-btn-primary -->
+              <!--  -->
+              <!--  -->
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="emailone">Email</label>
+                <input type="text" id="emailone" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" class="form-control">
+                  <option value="error">Error</option>
+                  <option value="quest">Question</option>
+                  <option value="comment" selected >Comment</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message"></label>
+                <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+              </div>
+              <button class="btn -btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
 
 
     <!-- <div class="carousel-item">
